@@ -44,7 +44,7 @@ button {
     display: flex;
     min-height: 496px;
     width: 100%;
-    background-image: url(../img/bg.banner-2.jpg.webp);
+    background-image: url(../img/img-course/bg.banner-2.jpg.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -127,6 +127,10 @@ h1.heading {
 
 .breadcrumb li a {
     text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    color: #783df0;
 }
 
 .breadcrumb li + li::before {
@@ -342,7 +346,7 @@ h1.heading {
 
 .course-pagination a:hover {
     color: #783df0;
-        border-color: #783df0;
+    border-color: #783df0;
 }
 
 .course-pagination li:last-child a {
@@ -439,4 +443,223 @@ h1.heading {
     background: #b80257;
     text-decoration: none;
     text-align: center;
+}
+
+.footer .btn-footer:hover {
+    background: white;
+    color: #b80257;
+}
+
+/* Event */
+
+.header-content-wrapper {
+    display: flex;
+    min-height: 496px;
+    width: 100%;
+    background-image: url(../img/img-event/banner-5.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-event-content {
+    color: #000000b3;
+    font-family: "Source Sans 3", sans-serif;
+    max-width: 900px;
+    margin-bottom: 90px;
+    position: relative;
+    padding: 0 15px;
+}
+
+.event-title {
+    display: flex;
+    flex-direction: column;
+    color: #000000b3;
+}
+
+.event-title .menu-event-title {
+    display: flex;
+    gap: 5px;
+}
+
+.event-title a {
+    text-decoration: none;
+    font-family: var(--heading-font);
+    font-size: 2.6rem;
+    margin: 10px 0;
+}
+
+.event-title a:hover {
+    color: #b80257;
+}
+
+.main-event-content .event-img {
+    max-height: 400px;
+    width: 100%;
+    object-fit: cover;
+    margin: 45px 0;
+}
+
+.main-event-content p:first-of-type {
+    padding: 0 80px 20px 0;
+}
+
+.main-event-content .footer-content {
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.9);
+    line-height: 1.5px;
+    padding: 10px;
+}
+
+.main-event-content .footer-content:hover {
+    color: #783df0;
+}
+
+.inner-event {
+    display: flex;
+}
+
+.pagination-content {
+    position: absolute;
+    transform: translateY(-100px);
+}
+
+/* Sidebar */
+.sidebar-event {
+    padding: 0 15px;
+    font-family: "Source Sans 3", sans-serif;
+    width: 300px !important;
+}
+
+.sidebar-form {
+    height: 50px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.sidebar .sidebar-input {
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0 72px 0 20px;
+}
+
+.content-btn {
+    width: 70px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    color: #fff;
+    font-size: 18px;
+    background: #783df0;
+    cursor: pointer;
+}
+
+.content-btn:hover {
+    background: #b80257;
+}
+
+.sidebar-recent-post h2 {
+    margin-bottom: 35px;
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.sidebar-recent-post li {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.sidebar-recent-post .float-left {
+    width: calc(100% - 100px);
+    padding-left: 20px;
+    float: right;
+}
+
+.sidebar-recent-post .float-left a {
+    line-height: 24px;
+    font-size: 16px;
+    display: block;
+    margin: 3px 0 5px 0;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+}
+
+.sidebar-recent-post .float-left a:hover {
+    color: #b80257;
+}
+
+.sidebar-categories {
+    margin: 50px 0;
+}
+
+.sidebar-categories h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #000000b3;
+}
+
+
+.sidebar-categories li {
+    display: flex;
+    gap: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-categories a {
+    line-height: 55px;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.7);
+    display: block;
+    text-decoration: none;
+    flex: 1;
+}
+
+.sidebar-categories a:hover {
+    color: #783df0;
+}
+
+.sidebar-categories .icon {
+    align-self: center;
+    justify-self: center;
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.magnifying-icon {
+    cursor: pointer;
+}
+
+.sidebar-tags h2 {
+        margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #000000b3;
+}
+
+.sidebar-tags li {
+        float: left;
+    padding: 0 5px;
+}
+
+.sidebar-tags a {
+    line-height: 36px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0 15px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.sidebar-tags a:hover {
+    background-color: #783df0;
+    color: white;
 }
